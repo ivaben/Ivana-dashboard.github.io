@@ -2,10 +2,7 @@
 layout: post
 title: K Nearest Neighbors 
 subtitle: K Nearest Neighbors and implementation on Iris dataset
-gh-repo:ivaben
-gh-badge: [star, fork, follow]
-tags: [books, test]
-comments: true
+
 ---
 
 **1.kNN and how it works**
