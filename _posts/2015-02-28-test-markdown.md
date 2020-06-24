@@ -2,7 +2,7 @@
 layout: post
 title: K Nearest Neighbors 
 subtitle: K Nearest Neighbors and implementation on Iris dataset
-gh-repo: daattali/beautiful-jekyll
+gh-repo: https://github.com/ivaben
 gh-badge: [star, fork, follow]
 tags: [test]
 comments: true
@@ -11,7 +11,7 @@ comments: true
 
 Let’s consider an example with two classes and two-dimensional feature vectors.
 
-![image](https:///)
+![alt text](screenshots/knn_jpg.PNG "here")
 
 We have two classes a blue one and an orange one and two-feature vectors with two-dimensions (x1 and x2).  Also, there are some training samples and for each new sample (green one) that we want to classify. Then, we want to calculate the distance of the green sample to each of the training samples by looking at the nearest neighbors. (In this case we will look at the three nearest neighbors (k=3) and then we’ll choose or predict the label based on the most common class labels.
 In order to calculate the distances, we used the Euclidean distance.  In 2D example:
