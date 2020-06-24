@@ -17,8 +17,10 @@ In order to calculate the distances, we used the Euclidean distance.  In 2D exam
 
 In ED in 2D case of 2 points is defined as the square root over and we have for each feature vector 0-component, square difference so we have x2-x1 + y2-y1 squared.
 
-```def euclidean_distance(x1, x2):
-    return np.sqrt(np.sum((x1 - x2)**2))```
+{% highlight javascript linenos %}
+def euclidean_distance(x1, x2):
+    return np.sqrt(np.sum((x1 - x2)** 2))
+{% endhighlight %}
 
 **2. Visualization of DATASET:**
 
@@ -71,10 +73,8 @@ foo(3)
 And here is the same code yet again but with line numbers:
 
 {% highlight javascript linenos %}
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
+def euclidean_distance(x1, x2):
+    return np.sqrt(np.sum((x1 - x2)**2))
 {% endhighlight %}
 
 ## Boxes
