@@ -17,10 +17,11 @@ In order to calculate the distances, we used the Euclidean distance.  In 2D exam
 
 In ED in 2D case of 2 points is defined as the square root over and we have for each feature vector 0-component, square difference so we have x2-x1 + y2-y1 squared.
 
-{% highlight javascript linenos %}
+~~~
 def euclidean_distance(x1, x2):
-    return np.sqrt(np.sum((x1 - x2)** 2))
-{% endhighlight %}
+    return np.sqrt(np.sum((x1 - x2)**2))
+~~~
+
 
 **2. Visualization of DATASET:**
 
@@ -31,9 +32,13 @@ Graph with 3 classes (red, green and blue).
 **3. Results of Using Coding:**
 
 We have to create a **class KNN** and then the methods that we want to implement:
-First, we have to implement the **Init method** with self and k=3 (which is a number of nearest neighbors). Inside the init we want to store the k (self.k = k). 
+
+First, we have to implement the **Init method** with self and k=3 (which is a number of nearest neighbors). Inside the init we want to store the k (self.k = k).
+
 Next, we have to implement the conventions from other machine learning libraries (ex. Scikit-learn library).
+
 Another implementation is the **fit method** that will fit the training samples and training labels.
+
 And last, implement the **predict method**, where we want to predict new samples.
 
 In our Fit method, kNN algorithm does not involve training steps, basically we want to store our training samples.
