@@ -2,9 +2,9 @@
 layout: post
 title: K Nearest Neighbors 
 subtitle: K Nearest Neighbors and implementation on Iris dataset
-gh-repo: github.com/ivaben
+gh-repo:ivaben
 gh-badge: [star, fork, follow]
-tags: [test]
+
 comments: true
 ---
 **1.kNN and how it works**
@@ -93,50 +93,3 @@ Then in our **test file** we will create classifier and k=3 neighbors and then t
 
 
 
-It can also be centered!
-
-![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg){: .center-block :}
-
-Here's a code chunk:
-
-
-~~~
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-~~~
-
-And here is the same code with syntax highlighting:
-
-```javascript
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-```
-
-And here is the same code yet again but with line numbers:
-
-{% highlight javascript linenos %}
-def euclidean_distance(x1, x2):
-    return np.sqrt(np.sum((x1 - x2)**2))
-{% endhighlight %}
-
-## Boxes
-You can add notification, warning and error boxes like this:
-
-### Notification
-
-{: .box-note}
-**Note:** This is a notification box.
-
-### Warning
-
-{: .box-warning}
-**Warning:** This is a warning box.
-
-### Error
-
-{: .box-error}
-**Error:** This is an error box.
