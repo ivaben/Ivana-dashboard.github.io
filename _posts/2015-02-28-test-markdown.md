@@ -11,7 +11,7 @@ comments: true
 
 Let’s consider an example with two classes and two-dimensional feature vectors.
 
-![image](
+![image](https:///)
 
 We have two classes a blue one and an orange one and two-feature vectors with two-dimensions (x1 and x2).  Also, there are some training samples and for each new sample (green one) that we want to classify. Then, we want to calculate the distance of the green sample to each of the training samples by looking at the nearest neighbors. (In this case we will look at the three nearest neighbors (k=3) and then we’ll choose or predict the label based on the most common class labels.
 In order to calculate the distances, we used the Euclidean distance.  In 2D example:
@@ -46,7 +46,7 @@ In our predict method, we will get multiple samples using (X). We will write hel
 We have to create a helper **method _predict** with only one sample (x).
 The _predict method needs to be computed. We will calculate all of distances and look at the nearest neighbors and the labels of the nearest neighbors and then we ‘ll choose our most common class label (1). 
 
-```javascript
+~~~
 class KNN:
     def __init__(self, k=3):
         self.k  = k
@@ -82,7 +82,7 @@ class KNN:
         # get first or very most common (1)
         most_common_class_labels = Counter(k_neigbor_labels).most_common(1)
         return most_common_class_labels[0][0]
-```
+~~~
 
 
 Then in our **test file** we will create classifier and k=3 neighbors and then to try 5 neighbors to experiment. We will fit X_train and y_train and predict the test samples.  Last, we will calculate the accuracy (how many of our predictions are correctly classified) using the accuracy method.
